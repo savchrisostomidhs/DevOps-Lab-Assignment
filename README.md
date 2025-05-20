@@ -5,7 +5,7 @@
 - username: savchrisostomidhs
 - repository name: devops
 - image-name: football-match-scores
-- path: [https://hub.docker.com/r/savchrisostomidhs/devops/tags] (https://hub.docker.com/r/savchrisostomidhs/devops/tags)
+- path: [https://hub.docker.com/r/savchrisostomidhs/devops/tags](https://hub.docker.com/r/savchrisostomidhs/devops/tags)
 
 ## Screenshots
 
