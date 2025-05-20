@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: football-match-scores-deployment
+spec:
+  selector:
+    matchLabels:
+      app: football-match-scores
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: football-match-scores
+    spec:
+      containers: 
+        - name: football-match-scores
+          image: savchrisostomidhs/devops:football-match-scores
+          ports:
+            - containerPort: 80
+  
